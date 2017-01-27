@@ -137,11 +137,12 @@ logicalmkup
 \papercolumns 1
 \papersides 2
 \paperpagestyle default
-\tracking_changes false
+\tracking_changes true
 \output_changes false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\author -1945514659 "Emanuel Schtze"
 \end_header
 
 \begin_body
@@ -200,15 +201,33 @@ OpenSlides
 
 \end_inset
 
- erläutert.
- Die Funktionen sind mit wenigen Ausnahmen alle über die Menüpunkte des
- Webinterfaces zu erreichen.
-\end_layout
-
-\begin_layout Standard
+ erläutert
+\change_inserted -1945514659 1485518173
+, die
+\change_deleted -1945514659 1485518177
+.
+ Die Funktionen sind mit wenigen Ausnahmen alle 
+\change_inserted -1945514659 1485518212
+ 
+\change_unchanged
+über die Menüpunkte des Webinterfaces zu erreichen
+\change_inserted -1945514659 1485518182
+ sind
+\change_deleted -1945514659 1485517977
+.
+\change_inserted -1945514659 1485518051
+.
+ 
+\change_unchanged
 Die meisten der hier beschriebenen Funktionen sind nur für Administratoren
- und Mitglieder der Teilnehmergruppe Mitarbeitende verfügbar.
- Die Funktionen für normale Teilnehmer sind im Tutorium 
+ und Mitglieder der Teilnehmergruppe 
+\emph on
+Mitarbeitende
+\emph default
+ verfügbar.
+ 
+\change_deleted -1945514659 1485518016
+Die Funktionen für normale Teilnehmer sind im Tutorium 
 \emph on
 Teilnehmer
 \emph default
@@ -223,10 +242,18 @@ ToDo
 \end_inset
 
 
+\change_unchanged
+
 \end_layout
 
 \begin_layout Section
+
+\change_deleted -1945514659 1485519541
 An- und Abmelden – Benutzername und Passwort ändern
+\change_inserted -1945514659 1485519554
+Login und Zugangsdaten
+\change_unchanged
+
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:An--und-Abmelden"
@@ -260,7 +287,7 @@ OpenSlides
 \begin_inset Graphics
 	filename clipart/Login-Bildschirm.jpg
 	lyxscale 50
-	scale 95
+	scale 80
 
 \end_inset
 
@@ -268,17 +295,59 @@ OpenSlides
 \end_layout
 
 \begin_layout Standard
-Der erste Benutzername des Administrators ist 
+Der 
+\change_deleted -1945514659 1485518320
+erste 
+\change_unchanged
+Benutzername
+\change_inserted -1945514659 1485518326
+ und das initiale Passwort
+\change_unchanged
+ des Administrators is
+\change_inserted -1945514659 1485518354
+t jeweils
+\change_deleted -1945514659 1485518378
+t 
+\change_inserted -1945514659 1485518334
+
+\family sans
+ 
+\change_deleted -1945514659 1485518341
+admin
+\change_inserted -1945514659 1485518341
+
+\family default
+
+\begin_inset Flex Code
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -1945514659 1485518341
+
 \family sans
 admin
-\family default
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
 .
+
+\change_deleted -1945514659 1485518380
  Er hat das erste Passwort 
 \family sans
 admin
 \family default
 .
- Über die Teilnehmerverwaltung
+
+\change_unchanged
+ 
+\change_deleted -1945514659 1485518474
+Über die Teilnehmerverwaltung
 \begin_inset Foot
 status collapsed
 
@@ -295,8 +364,18 @@ reference "sec:Teilnehmer"
 
 \end_inset
 
- neu angelegte Teilnehmer haben einen aus dem Vor- und Nachnamen zusammengesetzt
-en Benutzernamen, wobei Groß- und Kleinschreibung zu beachten ist und zwischen
+ n
+\change_inserted -1945514659 1485518559
+ 
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -1945514659 1485518478
+N
+\change_unchanged
+eu angelegte Teilnehmer haben einen aus dem Vor- und Nachnamen zusammengesetzten
+ Benutzernamen, wobei Groß- und Kleinschreibung zu beachten ist und zwischen
  den Namen ein Leerzeichen liegt.
  Beispiel: Ein mit dem Vornamen 
 \family sans
@@ -307,23 +386,42 @@ Max
 Mustermann
 \family default
  angelegter Teilnehmer hat den Benutzernamen
-\end_layout
-
-\begin_layout Standard
+\change_inserted -1945514659 1485518522
 
 \family sans
+ 
+\change_unchanged
 Max
 \begin_inset space ~
 \end_inset
 
 Mustermann
+\change_inserted -1945514659 1485518572
+.
+
+\family default
+ 
+\change_unchanged
+Das voreingestellte Passwort kann über die Teilnehmerverwaltung eingesehen
+ werden.
+\change_inserted -1945514659 1485518577
+
 \end_layout
 
 \begin_layout Standard
-Das voreingestellte Passwort kann über die Teilnehmerverwaltung eingesehen
- werden.
- Zum Einloggen geben Sie Ihren Benutzernamen und Ihr Passwort ein und klicken
- auf 
+
+\change_deleted -1945514659 1485518577
+ 
+\change_unchanged
+Zum Einloggen geben Sie 
+\change_deleted -1945514659 1485518584
+Ihren 
+\change_unchanged
+Benutzernamen und 
+\change_deleted -1945514659 1485518586
+Ihr 
+\change_unchanged
+Passwort ein und klicken auf 
 \family sans
 Anmelden
 \family default
@@ -331,19 +429,60 @@ Anmelden
 \end_layout
 
 \begin_layout Standard
-Um die Nutzer zu informieren wie man sich einloggt, kann man einen Text
- im Menü 
+Um 
+\change_deleted -1945514659 1485518597
+die
+\change_unchanged
+ Nutzer zu informieren
+\change_inserted -1945514659 1485519269
+,
+\change_unchanged
+ wie man sich einloggt, kann man einen Text
+\change_inserted -1945514659 1485519338
+ angeben unter:
+\change_deleted -1945514659 1485519334
+ im Menü
+\change_inserted -1945514659 1485519219
+ 
+\emph on
+Einstellungen | Allgemein | System 
+\change_deleted -1945514659 1485518878
+
+\emph default
+ 
 \family sans
 Einstellungen\SpecialChar menuseparator
 Allgemein\SpecialChar menuseparator
 System
 \family default
- im Feld 
+ 
+\change_unchanged
+im Feld
+\change_inserted -1945514659 1485519116
+ 
+\emph on
+Diesen Text auf der Login-Seite anzeigen
+\change_unchanged
+
+\emph default
+ 
+\change_deleted -1945514659 1485519085
+
 \family sans
 Diesen Text auf der Login-Seite anzeigen
+\change_unchanged
+
 \family default
- eingeben.
- Dieser erscheint auf dem Login-Fenster, wenn sich die Teilnehmer einloggen:
+ 
+\change_deleted -1945514659 1485519376
+eingeben
+\change_unchanged
+.
+ Dieser 
+\change_inserted -1945514659 1485519381
+Text 
+\change_unchanged
+erscheint auf dem Login-Fenster, wenn sich die Teilnehmer einloggen:
 \end_layout
 
 \begin_layout Standard
@@ -352,10 +491,16 @@ Diesen Text auf der Login-Seite anzeigen
 \begin_inset Graphics
 	filename clipart/Login-Bildschirm-angepasst.jpg
 	lyxscale 50
-	scale 95
+	scale 80
 
 \end_inset
 
+
+\change_inserted -1945514659 1485520141
+
+\end_layout
+
+\begin_layout Standard
 
 \end_layout
 
@@ -378,17 +523,38 @@ OpenSlides
 
 \end_inset
 
- benötigt ein Cookie um die Identität des Nutzers festzustellen, solange
- er eingeloggt ist.
- Beim Ausloggen wird das Cookie wieder gelöscht.
+ benötigt 
+\change_deleted -1945514659 1485519430
+ein
+\change_unchanged
+ Cookie
+\change_inserted -1945514659 1485519436
+s
+\change_unchanged
+ um die Identität des Nutzers festzustellen, solange er eingeloggt ist.
+ Beim Ausloggen w
+\change_deleted -1945514659 1485519461
+ird das
+\change_inserted -1945514659 1485519464
+erden die
+\change_unchanged
+ Cookie
+\change_inserted -1945514659 1485519468
+s
+\change_unchanged
+ wieder gelöscht.
 \end_layout
 
 \end_inset
 
 
+\change_inserted -1945514659 1485519921
+
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Standard
+
+\change_deleted -1945514659 1485519903
 Eigenen Benutzernamen oder Passwort ändern
 \begin_inset CommandInset label
 LatexCommand label
@@ -400,6 +566,8 @@ name "subsec:Benutzername-oder-Passwort"
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -1945514659 1485520149
 Klickt man in der Kopfzeile von 
 \begin_inset Flex Noun
 status collapsed
@@ -412,9 +580,13 @@ OpenSlides
 
  rechts auf den Benutzernamen, kann man das Profil bearbeiten oder das Passwort
  ändern.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -1945514659 1485519717
 Die eigenen Benutzereinstellungen wie Benutzername und Passwort können über
  den Button oben rechts geändert werden.
  Klicken Sie auf den Button, wählen Sie im oberen rechten Menü aus, ob Sie
@@ -425,10 +597,26 @@ Die eigenen Benutzereinstellungen wie Benutzername und Passwort können über
 Speichern
 \family default
 .
+\change_unchanged
+
 \end_layout
 
 \begin_layout Subsection
-Fremde Benutzereinstellungen (insbesondere Benutzername oder Passwort) ändern
+
+\change_deleted -1945514659 1485520415
+Fremde Benutzereinstellungen (insbesondere
+\change_unchanged
+ Benutzername 
+\change_deleted -1945514659 1485520420
+oder
+\change_inserted -1945514659 1485520421
+und
+\change_unchanged
+ Passwort
+\change_deleted -1945514659 1485520417
+)
+\change_unchanged
+ ändern
 \begin_inset CommandInset label
 LatexCommand label
 name "subsec:Fremde-Benutzereinstellungen"
@@ -439,7 +627,28 @@ name "subsec:Fremde-Benutzereinstellungen"
 \end_layout
 
 \begin_layout Standard
+
+\change_inserted -1945514659 1485520436
+Nach dem Login kann  man in der 
+\begin_inset Flex Noun
+status collapsed
+
+\begin_layout Plain Layout
+
+\change_inserted -1945514659 1485520435
+OpenSlides
+\end_layout
+
+\end_inset
+
+-Kopfzeile  rechts auf seinen Benutzernamen klicken, um sein Profil zu bearbeite
+n oder sein Passwort zu ändern.
+\end_layout
+
+\begin_layout Standard
 Beim Anlegen eines Teilnehmers
+\change_deleted -1945514659 1485520269
+
 \begin_inset Foot
 status collapsed
 
@@ -456,6 +665,8 @@ reference "sec:Teilnehmer"
 
 \end_inset
 
+
+\change_unchanged
  wird automatisch ein zufälliges initiales Passwort gesetzt.
  Dieses kann nicht mehr geändert werden.
  Es ist solange aktiv, bis der Teilnehmer es ändert.
@@ -483,31 +694,71 @@ Passwort
  Klickt man auf 
 \begin_inset Graphics
 	filename clipart/Generieren.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 115bp 0bp
 
 \end_inset
 
 , wird ein neues, zufälliges Passwort erstellt.
  Alternativ kann man selbst ein Passwort wählen.
- Die Änderung des Passworts überschreibt das vom Teilnehmer festgelegte
- Passwort und deaktiviert das initiale Passwort.
+ Die Änderung des Passworts überschreibt das vom 
+\change_deleted -1945514659 1485520503
+Teilnehmer
+\change_inserted -1945514659 1485520504
+Nutzer
+\change_unchanged
+ festgelegte Passwort und deaktiviert das initiale Passwort.
 \end_layout
 
 \begin_layout Standard
-Die initialen Passwörter (nicht die vom Teilnehmer festgelegten) aller Teilnehme
-r können Administratoren aus einer PDF-Datei ablesen.
+Die initialen Passwörter (nicht die vom Teilnehmer festgelegten) 
+\change_deleted -1945514659 1485520525
+aller Teilnehmer
+\change_unchanged
+ können Administratoren aus 
+\change_deleted -1945514659 1485520548
+einer
+\change_inserted -1945514659 1485520557
+der Zugangsdaten-
+\change_deleted -1945514659 1485520558
+ 
+\change_unchanged
+PDF-Datei ablesen.
  Diese Datei wird generiert, wenn man im Menü 
 \family sans
 Teilnehmende
 \family default
  auf
+\change_inserted -1945514659 1485520614
+ 
+\change_deleted -1945514659 1485520607
+
 \begin_inset Newline newline
 \end_inset
 
 
+\change_inserted -1945514659 1485520634
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -1945514659 1485520640
+Button rechts abgeschnitten
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \begin_inset Graphics
 	filename clipart/Exportieren-alle.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 165bp 0bp
 
 \end_inset
 
@@ -521,7 +772,17 @@ Zugangsdatenliste
 \begin_layout Standard
 Die Zugangsdatenliste besteht aus einer Seite für jeden Teilnehmer.
  Sie ist dazu gedacht dem Teilnehmer seine Seite vor Beginn der Veranstaltung
- zu geben.
+ 
+\change_deleted -1945514659 1485520593
+zu
+\change_unchanged
+ 
+\change_inserted -1945514659 1485520583
+auszuhändigen
+\change_deleted -1945514659 1485520585
+geben
+\change_unchanged
+.
  Den Begrüßuns- und Erläuterungstext auf der Teilnehmerseite kann in den
  Teilnehmer-Einstellungen festgelegt werden, siehe 
 \begin_inset CommandInset ref
@@ -567,10 +828,22 @@ OpenSlides
 \end_inset
 
  ist Inhalte zu projizieren.
- Bei Versammlungen ist es essentiell die Teilnehmer über den Ablauf und
- den aktuellen Punkt zu informieren.
- Je nach den technischen Möglichkeiten im Versammlungsraum stehen dafür
- mehrere Projektoren zur Verfügung.
+ Bei Versammlungen ist es essentiell
+\change_inserted -1945514659 1485520696
+,
+\change_unchanged
+ die Teilnehmer über den Ablauf und den aktuellen Punkt zu informieren.
+ Je nach den technischen Möglichkeiten im Versammlungs
+\change_inserted -1945514659 1485520709
+saal
+\change_deleted -1945514659 1485520711
+raum
+\change_unchanged
+ stehen dafür 
+\change_inserted -1945514659 1485520725
+ein oder 
+\change_unchanged
+mehrere Projektoren zur Verfügung.
 \end_layout
 
 \begin_layout Standard
@@ -584,11 +857,54 @@ OpenSlides
 
 \end_inset
 
- erst einmal einen Projektor an.
- Dieser wird aufgerufen, indem man im Browser die Adresse
+ 
+\change_deleted -1945514659 1485520739
+erst einmal 
+\change_unchanged
+einen Projektor an.
+ Dieser wird aufgerufen, indem man
+\change_inserted -1945514659 1485521111
+ zunächst
+\change_unchanged
+ 
+\change_inserted -1945514659 1485521129
+die Projektorseitenleiste durch Klick auf den Projektorbutton am rechten
+ Rand 
+\begin_inset Graphics
+	filename clipart/Projektorsymbol-Leiste.jpg
+	scale 35
+	BoundingBox 0bp 9bp 50bp 0bp
+
+\end_inset
+
+ aufklappt und anschließend auf die Projektor-Live-Vorschau klickt.
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -1945514659 1485521142
+Alternativ kann man 
+\change_unchanged
+im Browser 
+\change_inserted -1945514659 1485521153
+direkt 
+\change_unchanged
+die 
+\change_deleted -1945514659 1485521203
+Adresse
+\change_inserted -1945514659 1485521203
+URL
+\change_deleted -1945514659 1485521203
+
 \begin_inset Newline newline
 \end_inset
 
+
+\change_inserted -1945514659 1485520762
+ 
+\change_unchanged
 
 \begin_inset CommandInset href
 LatexCommand href
@@ -597,10 +913,22 @@ target "http://localhost:8000/projector/1/"
 \end_inset
 
 
+\change_deleted -1945514659 1485520764
+
 \begin_inset Newline newline
 \end_inset
 
-eingibt.
+
+\change_inserted -1945514659 1485521193
+ 
+\change_unchanged
+eing
+\change_inserted -1945514659 1485521161
+eben
+\change_deleted -1945514659 1485521162
+ibt
+\change_unchanged
+.
  Wird 
 \begin_inset Flex Noun
 status collapsed
@@ -611,21 +939,60 @@ OpenSlides
 
 \end_inset
 
- über einen Webserver betrieben, wird die Webadresse statt 
+ 
+\change_deleted -1945514659 1485520829
+über
+\change_inserted -1945514659 1485520830
+auf einem
+\change_deleted -1945514659 1485520832
+ einen
+\change_unchanged
+ 
+\change_inserted -1945514659 1485520898
+entfernten 
+\change_deleted -1945514659 1485520836
+Webserver
+\change_inserted -1945514659 1485520838
+Rechner
+\change_unchanged
+ betrieben, wird 
+\change_inserted -1945514659 1485520874
+anstatt 
 \emph on
 localhost
 \emph default
+ 
+\change_unchanged
+die 
+\change_inserted -1945514659 1485520878
+genaue IP-Adresse oder Domain 
+\change_deleted -1945514659 1485520865
+Webadresse
+\change_unchanged
+ 
+\change_deleted -1945514659 1485520871
+statt 
+\emph on
+localhost
+\change_unchanged
+
+\emph default
  verwendet.
- Alternativ wird der Projektor in einem neuen Browsertab geöffnet, indem
+ 
+\change_deleted -1945514659 1485521169
+Alternativ wird der Projektor in einem neuen Browsertab geöffnet, indem
  man auf die Projektorvoransicht klickt.
  Ist diese noch nicht sichtbar, muss man zuerst rechts oben auf 
 \begin_inset Graphics
 	filename clipart/Projektorsymbol-Leiste.jpg
-	scale 70
+	scale 35
+	BoundingBox 0bp 9bp 50bp 0bp
 
 \end_inset
 
  klicken.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -637,7 +1004,7 @@ Die Projektorvorschau sieht so aus:
 \align center
 \begin_inset Graphics
 	filename clipart/Projektorvorschau.jpg
-	scale 95
+	scale 80
 
 \end_inset
 
@@ -648,7 +1015,8 @@ Die Projektorvorschau sieht so aus:
 Klickt man auf 
 \begin_inset Graphics
 	filename clipart/Projektor-leeren.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 9bp 161bp 0bp
 
 \end_inset
 
@@ -671,20 +1039,56 @@ Leeren
 \begin_layout Standard
 Einige zu projizierende Informationen benötigen mehr Platz als auf dem Projektor
  vorhanden.
- Daher kann man mit den Tasten unterhalb der Vorschau:
+ 
+\change_deleted -1945514659 1485521383
+Daher kann man m
+\change_inserted -1945514659 1485521383
+M
+\change_unchanged
+it den 
+\change_deleted -1945514659 1485521326
+Tasten
+\change_inserted -1945514659 1485530081
+Zoom-/Scroll-Steuerungsschaltflächen
+\change_unchanged
+ 
+\change_deleted -1945514659 1485530091
+unterhalb der Vorschau
+\change_inserted -1945514659 1485530100
+lässt sich die Projektion leicht anpassen
+\change_unchanged
+:
+\change_inserted -1945514659 1485530039
+ 
+\change_deleted -1945514659 1485530030
+
 \begin_inset Newline newline
 \end_inset
 
 
+\change_unchanged
+
 \begin_inset Graphics
 	filename clipart/Projektorknöpfe.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 256bp 0bp
 
 \end_inset
 
- die Projektion anpassen.
- Für eine lange Tagesordnung kann man die Pfeiltasten nutzen, um zu den
- aktuellen Punkten zu scrollen.
+ 
+\change_deleted -1945514659 1485530030
+die Projektion anpassen.
+\change_inserted -1945514659 1485521357
+
+\end_layout
+
+\begin_layout Standard
+
+\change_deleted -1945514659 1485521356
+ 
+\change_unchanged
+Für eine lange Tagesordnung kann man die Pfeiltasten nutzen, um zu den aktuellen
+ Punkten zu scrollen.
  Mit den Vergrößerungsknöpfen kann heran- oder herausgezoomt werden.
  Jeder Veränderungsschritt wird als rote Zahl angezeigt.
  Wurde z.
@@ -695,18 +1099,28 @@ B.
  dreimal nach unten gescrollt und einmal vergrößert, sieht man 
 \begin_inset Graphics
 	filename clipart/Projektorknöpfe-geändert.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 256bp 0bp
 
 \end_inset
 
 .
+\change_deleted -1945514659 1485530138
+
 \begin_inset Newline newline
 \end_inset
 
+
+\change_inserted -1945514659 1485530139
+
+\end_layout
+
+\begin_layout Standard
 Mit den Knöpfen 
 \begin_inset Graphics
 	filename clipart/Zurücksetzen.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 32bp 0bp
 
 \end_inset
 
@@ -714,11 +1128,24 @@ Mit den Knöpfen
  Mit 
 \begin_inset Graphics
 	filename clipart/Bearbeiten-Symbol-klein.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 5bp 22bp 0bp
 
 \end_inset
 
- kann die aktuell projizierte Sache geändert werden.
+ kann die aktuell projizierte 
+\change_deleted -1945514659 1485530173
+Sache
+\change_inserted -1945514659 1485530174
+Folie
+\change_unchanged
+ 
+\change_deleted -1945514659 1485530178
+geändert
+\change_inserted -1945514659 1485530179
+bearbeitet
+\change_unchanged
+ werden.
  Wird z.
 \begin_inset space \thinspace{}
 \end_inset
@@ -735,7 +1162,8 @@ Mehrere Projektoren
 Klickt man in der Projektorvorschau auf 
 \begin_inset Graphics
 	filename clipart/Projektor-verwalten.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 90bp 0bp
 
 \end_inset
 
@@ -743,41 +1171,104 @@ Klickt man in der Projektorvorschau auf
  Mit 
 \begin_inset Graphics
 	filename clipart/Neu-Symbol.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 61bp 0bp
 
 \end_inset
 
  können weitere Projektoren erstellt werden.
  Auf diese Weise ist es beispielsweise möglich, die Tagesordnung auf einem
- Projektor anzuzeigen und den aktuellen Antrag auf einem zweiten.
+ Projektor anzuzeigen und den aktuellen Antrag
+\change_inserted -1945514659 1485530249
+ oder die Redeliste
+\change_unchanged
+ auf einem zweiten.
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -1945514659 1485531090
 Klickt man in der Projektorverwaltung auf 
 \begin_inset Graphics
 	filename clipart/Projektor-für-Redeliste.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 249bp 0bp
 
 \end_inset
 
 , kann man einen Projektor festlegen, auf der Redelisten standardmäßig ausgegebe
 n werden.
- Wird ein Thema auf einem anderen Projektor angezeigt, erscheint dann dessen
- Redeliste automatisch auf dem festlegten Projektor.
+ Wird 
+\change_inserted -1945514659 1485531062
+
+\end_layout
+
+\begin_layout Standard
+
+\change_deleted -1945514659 1485531079
+ein Thema auf einem anderen Projektor angezeigt, erscheint dann dessen Redeliste
+ automatisch auf dem festlegten Projektor.
 \end_layout
 
 \begin_layout Standard
 \noindent
 Sobald mehr als ein Projektor vorhanden ist, erscheint neben jedem Projektionskn
-opf eine Erweiterung: 
-\begin_inset Graphics
-	filename clipart/Projektorsymbol-erweitert.jpg
-	scale 95
+opf eine 
+\change_inserted -1945514659 1485531187
+ausklappbares Menü
+\change_deleted -1945514659 1485531155
+Erweiterung:
+\change_unchanged
+ 
+\change_inserted -1945514659 1485530409
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+
+\change_inserted -1945514659 1485530431
+Buttonrand links und oben abgeschnitten
+\change_unchanged
+
+\end_layout
 
 \end_inset
 
- mit der der Projektor ausgewählt werden kann.
- In der Projektorvorschau kann ebenfalls ein Projektor ausgewählt werden:
+
+\change_unchanged
+
+\begin_inset Graphics
+	filename clipart/Projektorsymbol-erweitert.jpg
+	scale 50
+	BoundingBox 0bp 7bp 50bp 0bp
+
+\end_inset
+
+
+\change_inserted -1945514659 1485531159
+,
+\change_unchanged
+ mit de
+\change_inserted -1945514659 1485531165
+m
+\change_deleted -1945514659 1485531165
+r
+\change_unchanged
+ der Projektor ausgewählt werden kann.
+ In der Projektorvorschau kann ebenfalls 
+\change_deleted -1945514659 1485531198
+ein
+\change_inserted -1945514659 1485531199
+der
+\change_unchanged
+ Projektor 
+\change_deleted -1945514659 1485531201
+ausgewählt
+\change_inserted -1945514659 1485531205
+gewechselt
+\change_unchanged
+ werden:
 \end_layout
 
 \begin_layout Standard
@@ -785,7 +1276,7 @@ opf eine Erweiterung:
 \align center
 \begin_inset Graphics
 	filename clipart/Projektorauswahl.jpg
-	scale 95
+	scale 80
 
 \end_inset
 
@@ -794,7 +1285,7 @@ opf eine Erweiterung:
 
 \begin_layout Standard
 Der zweite angelegte Projektor hat unabhängig von seinem Namen die Adresse
-\begin_inset Newline newline
+\begin_inset Newline linebreak
 \end_inset
 
 
@@ -805,35 +1296,137 @@ target "http://localhost:8000/projector/2/"
 \end_inset
 
 
+\change_inserted -1945514659 1485531295
+.
+\change_deleted -1945514659 1485531297
+
 \begin_inset Newline newline
 \end_inset
 
-Der dritte Projektor bekommt die 3 usw.
+
+\change_inserted -1945514659 1485531297
+ 
+\change_unchanged
+Der dritte Projektor bekommt die 3
+\change_inserted -1945514659 1485531313
+,
+\change_unchanged
+ usw.
  Der entsprechende Projektor wird in einem neuen Browsertab geöffnet, indem
- man in der Projektorverwaltung auf ihn klickt.
+ man in der Projektorverwaltung auf
+\change_inserted -1945514659 1485531328
+ die Vorschau
+\change_deleted -1945514659 1485531329
+ ihn
+\change_unchanged
+ klickt.
  Wird ein Projektor wieder gelöscht, wird seine Nummer nicht neu vergeben.
  Jeder Projektor hat also eine einzigartige Nummer.
 \end_layout
 
 \begin_layout Standard
 Mit dem Kopf 
+\change_inserted -1945514659 1485531351
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+
+\change_inserted -1945514659 1485531358
+Button rechts abgeschnitten
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \begin_inset Graphics
 	filename clipart/Projektor-identifizieren.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 129bp 0bp
 
 \end_inset
 
  wird auf jedem Projektor für ein paar Sekunden seine Nummer und sein Name
  angezeigt.
- Mit dem Knopf 
+ Mit 
+\change_deleted -1945514659 1485531382
+dem Knopf
+\change_unchanged
+ 
 \begin_inset Graphics
 	filename clipart/Projektor-verbreiten.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 95bp 0bp
 
 \end_inset
 
  kann der Inhalt des Projektors auf allen anderen Projektoren angezeigt
- werden.
+ 
+\change_inserted -1945514659 1485531433
+und verbreitet
+\change_deleted -1945514659 1485531436
+werden
+\change_inserted -1945514659 1485531439
+ (engl.
+ 
+\begin_inset Quotes gld
+\end_inset
+
+broadcast
+\begin_inset Quotes grd
+\end_inset
+
+) werden
+\change_unchanged
+.
+\change_inserted -1945514659 1485531096
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -1945514659 1485531097
+Klickt man in der Projektorverwaltung auf 
+\begin_inset Graphics
+	filename clipart/Projektor-für-Redeliste.jpg
+	scale 50
+	BoundingBox 0bp 7bp 249bp 0bp
+
+\end_inset
+
+, lässt sich der Projektor festlegen, auf welchen sich die 
+\emph on
+aktuelle 
+\emph default
+ Redeliste bezieht.
+ Ein Bespiel: Projektor 1 ist als Referenz für die aktuelle Redeliste eingestell
+t.
+ Ein Antrag wird nun auf Projeketor 1 angezeigt.
+ Projektor 2 projiziert stets die aktuelle Redeliste.
+ Damit wird auf Projektor 2 die Redeliste des Antrags von Projektor 1 dargestell
+t.
+ Präsentiert man nun einen Tagesordnungspunkt auf Projektor 1, aktualisiert
+ sich Projektor 1 automatisch und zeigt die Redeliste des TOPs an.
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -1945514659 1485531097
+Die aktuelle Redeliste kann sich immer nur auf einen definierten Projektor
+ beziehen.
+ Ist zu der projizierten Folie keine Redeliste vorhanden, bleibt die 
+\emph on
+aktuelle
+\emph default
+ Redeliste leer.
+ 
+\change_unchanged
+
 \end_layout
 
 \begin_layout Subsection
@@ -848,25 +1441,119 @@ name "subsec:Einstellungen-Projektor"
 \end_layout
 
 \begin_layout Standard
-Im Menü 
+Im Menü
+\change_inserted -1945514659 1485531473
+ Einstellungen | Projektor
+\change_unchanged
+ 
+\change_deleted -1945514659 1485531533
+
 \family sans
 Einstellungen\SpecialChar menuseparator
 Projektor
 \family default
- können Einstellungen für die Projektoransicht vorgenommen werden.
+ 
+\change_unchanged
+können Einstellungen für die Projektoransicht vorgenommen werden.
 \end_layout
 
 \begin_layout Standard
-Mit der Option 
+Mit der Option
+\change_inserted -1945514659 1485531561
+ 
+\emph on
+Logo auf dem Projektor anzeigen
+\change_deleted -1945514659 1485531564
+
+\emph default
+ 
 \family sans
 Logo auf dem Projektor anzeigen
+\change_unchanged
+
 \family default
- kann ein Logo oben links angezeigt werden.
- Um das Logo zu ändern, muss die Datei 
+ kann ein Logo oben links 
+\change_deleted -1945514659 1485531572
+angezeigt
+\change_inserted -1945514659 1485531574
+dargestellt
+\change_unchanged
+ werden.
+ Um das Logo zu ändern, muss 
+\change_inserted -1945514659 1485532224
+eine Datei mit Namen 
+\begin_inset Flex Code
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -1945514659 1485532224
+logo-projector.png
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+ 
+\change_deleted -1945514659 1485532125
+die Datei 
 \series bold
 logo-projector.png
+\change_unchanged
+
 \series default
- im Unterordner
+ im 
+\change_inserted -1945514659 1485532197
+OpenSlides-Benutzerdatenverzeichnis abgelegt werden
+\change_deleted -1945514659 1485531846
+Unterordner
+\change_inserted -1945514659 1485532197
+:
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -1945514659 1485532171
+.
+\begin_inset Flex Code
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -1945514659 1485531947
+/static/img/logo-projector.png
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -1945514659 1485532339
+Diese Datei überschreibt das voreingestellte OpenSlides-Logo.
+ In der portablen Version für Windows ist das OpenSlides-Benutzerdatenverzeichni
+s der Ordner 
+\begin_inset Flex Code
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -1945514659 1485532087
+openslides
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+; dort wo auch die Datenbank liegt.
+\change_deleted -1945514659 1485532950
+
 \begin_inset Newline newline
 \end_inset
 
@@ -904,31 +1591,130 @@ OpenSlides
 \end_layout
 
 \begin_layout Standard
-Mit der Option 
+Mit der Option
+\change_inserted -1945514659 1485532395
+ 
+\emph on
+Titel und Kurzbeschreibung der Veranstaltung auf dem Projektor anzeigen
+\change_deleted -1945514659 1485532398
+
+\emph default
+ 
 \family sans
 Titel und Kurzbeschreibung der Veranstaltung auf dem Projektor anzeigen
 \family default
- kann der Titel und die Kurzbeschreibung der Veranstaltung rechts neben
- dem Logo angezeigt werden.
+ 
+\change_inserted -1945514659 1485532406
+ 
+\change_deleted -1945514659 1485532431
+kann
+\change_inserted -1945514659 1485532467
+lässt sich
+\change_unchanged
+ 
+\change_deleted -1945514659 1485532435
+der
+\change_unchanged
+ Titel und 
+\change_deleted -1945514659 1485532437
+die 
+\change_inserted -1945514659 1485532438
+ 
+\change_unchanged
+Kurzbeschreibung 
+\change_deleted -1945514659 1485532425
+der Veranstaltung
+\change_unchanged
+ 
+\change_deleted -1945514659 1485532471
+rechts neben dem Logo angezeigt werden.
+\change_inserted -1945514659 1485532478
+auf dem Projektor ein- und ausblenden.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
-Im Feld 
-\family sans
+
+\change_inserted -1945514659 1485533167
+Mit den drei Farbeinstellungen lässt sich die Farbgebung auf dem Projektor
+ individualisieren:
+\end_layout
+
+\begin_layout Itemize
+
+\change_inserted -1945514659 1485533167
+
+\emph on
 Hintergrundfarbe des Projektor-Kopf- und Fußbereichs
-\family default
- kann diese Farbe verändert werden.
 \end_layout
 
-\begin_layout Standard
-Im Feld 
-\family sans
+\begin_layout Itemize
+
+\change_inserted -1945514659 1485533167
+
+\emph on
 Schriftfarbe des Projektor-Kopf- und Fußbereichs
-\family default
+\end_layout
+
+\begin_layout Itemize
+
+\change_inserted -1945514659 1485533221
+
+\emph on
+Schriftfarbe der Projektor-Überschrift
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -1945514659 1485533242
+Im Feld 
+\emph on
+Vorgegebene Sekunden für neue Countdowns
+\emph default
+ lässt sich die Voreinstellung für Countdowns anpassen.
+ Mehr zu Countdowns siehe 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Countdowns"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -1945514659 1485533205
+Die voreingestellte (weiße) Füllfarbe für einen leeren Projektor lässt sich
+ im Feld 
+\emph on
+Farbe für ausgeblendeten Projekto
+\emph default
+r ändern.
+ Diese Farbe wird angezeigt, wenn  in der Projektorvorschau 
+\begin_inset Graphics
+	filename clipart/Projektor-leeren.jpg
+	scale 50
+	BoundingBox 0bp 7bp 161bp 0bp
+
+\end_inset
+
+ gedrückt wird.
+\end_layout
+
+\begin_layout Verbatim*
+
+\change_deleted -1945514659 1485533183
+
+Im Feld Hintergrundfarbe des Projektor-Kopf- und Fußbereichs kann diese
+ Farbe verändert werden.Im Feld Schriftfarbe des Projektor-Kopf- und Fußbereichs
  kann diese Farbe verändert werden.
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -1945514659 1485533194
 Im Feld 
 \family sans
 Schriftfarbe der Projektor-Überschrift
@@ -937,6 +1723,8 @@ Schriftfarbe der Projektor-Überschrift
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -1945514659 1485533203
 Im Feld 
 \family sans
 Vorgegebene Sekunden für neue Countdowns
@@ -953,6 +1741,8 @@ reference "subsec:Countdowns"
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -1945514659 1485533203
 Im Feld 
 \family sans
 Farbe für ausgeblendeten Projektor
@@ -961,11 +1751,14 @@ Farbe für ausgeblendeten Projektor
  Fläche anzeigt, wenn man in der Projektorvorschau 
 \begin_inset Graphics
 	filename clipart/Projektor-leeren.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 161bp 0bp
 
 \end_inset
 
  gedrückt hat.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
