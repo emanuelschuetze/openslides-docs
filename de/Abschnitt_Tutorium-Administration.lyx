@@ -132,11 +132,12 @@ logicalmkup
 \papercolumns 1
 \papersides 2
 \paperpagestyle default
-\tracking_changes false
+\tracking_changes true
 \output_changes false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\author -1945514659 "Emanuel Schtze"
 \end_header
 
 \begin_body
@@ -312,7 +313,9 @@ Anmelden
 
 \begin_layout Standard
 Anschließend sollten Sie sofort das Administrator-Passwort ändern.
- Klicken Sie dazu oben rechts in der Kopfzeile
+ Klicken Sie dazu oben rechts in der Kopfzeile auf 
+\family sans
+Administrator:
 \end_layout
 
 \begin_layout Standard
@@ -327,11 +330,7 @@ Anschließend sollten Sie sofort das Administrator-Passwort ändern.
 \end_layout
 
 \begin_layout Standard
-auf 
-\family sans
-Administrator
-\family default
- und dann auf 
+Anschließend auf 
 \family sans
 Passwort ändern
 \family default
@@ -446,7 +445,7 @@ Startseite: Herzlich willkommen, liebe Gartenfreunde!
 \begin_inset Graphics
 	filename clipart/Einstellungen-Allgemein.jpg
 	lyxscale 50
-	width 100col%
+	width 74col%
 
 \end_inset
 
@@ -479,7 +478,7 @@ Diesen Text auf der Login-Seite anzeigen
 \begin_inset Graphics
 	filename clipart/Login-Bildschirm-angepasst.jpg
 	lyxscale 66
-	scale 95
+	scale 80
 
 \end_inset
 
@@ -569,7 +568,8 @@ Tagesordnung
  oben rechts auf 
 \begin_inset Graphics
 	filename clipart/Neu-Symbol.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 61bp 0bp
 
 \end_inset
 
@@ -667,7 +667,8 @@ Wahlen
 Klicken Sie abschließend auf den Knopf 
 \begin_inset Graphics
 	filename clipart/Tagesordnung-nummerieren.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 142bp 0bp
 
 \end_inset
 
@@ -694,7 +695,8 @@ Sie können nun nachträglich die Reihenfolge der Einträge verändern und auch
  Klicken Sie dazu oben auf den Knopf 
 \begin_inset Graphics
 	filename clipart/Tagesordnung-sortieren.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 106bp 0bp
 
 \end_inset
 
@@ -715,14 +717,16 @@ Bericht des Vorstands
  Gehen sie durch Drücken des Knopfes 
 \begin_inset Graphics
 	filename clipart/Zurück-Übersicht.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 151bp 0bp
 
 \end_inset
 
  zurück zu Übersicht und drücken Sie 
 \begin_inset Graphics
 	filename clipart/Tagesordnung-nummerieren.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 142bp 0bp
 
 \end_inset
 
@@ -744,12 +748,14 @@ Bericht des Vorstands
 \end_layout
 
 \begin_layout Subsection
-Einrichtung eigener Themen
+Interne Einträge
 \end_layout
 
 \begin_layout Standard
-Eigene Themen werden verwendet, um Dinge außerhalb der offiziellen Tagesordnung
- zu behandeln.
+Interne Einträge werden verwendet, um organisatorische Dinge in den Ablaufplan
+ der Tagesordnung einzufügen.
+ Solche Einträge gehören aber formal nicht zur offiziellen Tagesordnung
+ und werden entsprechend als interne Einträge markiert.
  Technisch sind sie jedoch dasselbe wie ein Tagesordnungspunkt.
 \end_layout
 
@@ -760,7 +766,7 @@ Um z.
 
 B.
  den Teilnehmern mitzuteilen, dass es eine Kaffeepause gibt, erstellen Sie
- einen neuen Tagesordnungspunkt:
+ ein neues Themen:
 \begin_inset Note Note
 status collapsed
 
@@ -816,15 +822,12 @@ Als Tagesordnungspunkt anzeigen
 nicht
 \emph default
  ausgewählt ist.
+ 
 \end_layout
 
 \begin_layout Standard
-Eigene Themen werden in der Übersicht mit der Option 
-\family sans
-Interner Eintrag
-\family default
- versehen, um anzuzeigen, dass sie nicht Teil der offiziellen Tagesordnung
- sind.
+Interne Einträge erscheinen in der Tagesordnungsübersicht mit einem kleinen
+ Verbotsschild vor dem Titel.
 \end_layout
 
 \begin_layout Subsection
@@ -853,7 +856,8 @@ Um in unseren Fall nun die Tagesordnung zu projizieren, klicken Sie auf
  den Knopf 
 \begin_inset Graphics
 	filename clipart/Tagesordnung-projizieren.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 118bp 0bp
 
 \end_inset
 
@@ -861,11 +865,12 @@ Um in unseren Fall nun die Tagesordnung zu projizieren, klicken Sie auf
  Dieser verfärbt sich daraufhin blau: 
 \begin_inset Graphics
 	filename clipart/Tagesordnung-projizieren-aktiv.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 118bp 0bp
 
 \end_inset
 
- denn ein blau unterlegtes Projektorsymbol bedeutet, dass dieser Teil gerade
+ Ein blau unterlegtes Projektorsymbol bedeutet, dass dieser Teil gerade
  live projiziert wird.
 \end_layout
 
@@ -873,7 +878,8 @@ Um in unseren Fall nun die Tagesordnung zu projizieren, klicken Sie auf
 Durch Drücken von 
 \begin_inset Graphics
 	filename clipart/Untermenü-Symbol.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 26bp 0bp
 
 \end_inset
 
@@ -894,7 +900,8 @@ Anträge
  zu projizieren, drücken Sie auf den Knopf 
 \begin_inset Graphics
 	filename clipart/Projektorsymbol.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 34bp 0bp
 
 \end_inset
 
@@ -902,7 +909,8 @@ Anträge
  Er verfärbt sich nun blau: 
 \begin_inset Graphics
 	filename clipart/Projektorsymbol-laufend.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 34bp 0bp
 
 \end_inset
 
@@ -913,11 +921,12 @@ Anträge
 Mittels 
 \begin_inset Graphics
 	filename clipart/Projektorsymbol.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 34bp 0bp
 
 \end_inset
 
- können Sie auch die eigenen Themen projizieren.
+ können Sie auch die internen Einträge projizieren.
 \end_layout
 
 \begin_layout Subsection
@@ -925,8 +934,8 @@ Mittels
 \end_layout
 
 \begin_layout Standard
-Der Inhalt von Tagesordnungspunkten kann jederzeit geändert werden, insbesondere
- während der Veranstaltung.
+Der Inhalt von Tagesordnungspunkten kann jederzeit geändert werden, auch
+ wenn diese gerade projiziert werden.
  Dazu zeigen Sie mit der Maus auf einen Tagesordnungspunkt und es erscheint
  ein Kontextmenü:
 \end_layout
@@ -944,26 +953,20 @@ Der Inhalt von Tagesordnungspunkten kann jederzeit geändert werden, insbesonder
 \end_layout
 
 \begin_layout Standard
-Wie man sieht.
- können einige Änderungen direkt in der Tagesordnungsübersicht vorgenommen
- werden.
+Einige Änderungen können direkt in dieser Übersich vorgenommen werden.
 \end_layout
 
 \begin_layout Standard
-Ändern Sie zum Beispiel den Inhalt des Tagesordnungspunktes 
+Ändern Sie zum Beispiel die Dauer des Tagesordnungspunktes 
 \family sans
 Bericht des Vorstandes
 \family default
-, indem Sie im Kontextmenü auf 
+ auf 0:20h.
+ Titel und Text können Sie nach Klick auf 
 \family sans
 Bearbeiten
 \family default
- klicken und einen Text zum Tagesordnungspunkt eingeben.
- Anschließend setzen sie die Dauer auf 0:20 (20
-\begin_inset space \thinspace{}
-\end_inset
-
-min).
+ ändern.
 \end_layout
 
 \begin_layout Subsection
@@ -987,9 +990,9 @@ OpenSlides
 
 \end_inset
 
- verfügt bei jedem Tagesordnungseintrag über eine Redelistenfunktion.
- Um eine Redeliste zu erstellen, klicken Sie im Kontextmenü des Tagesordnungspun
-kts 
+ bietet für jeden Tagesordnungspunkt eine eigene Redeliste.
+ Um eine Redeliste zu öffnen, klicken Sie im Kontextmenü des Tagesordnungspunkts
+ 
 \family sans
 Bericht des Vorstandes
 \family default
@@ -1001,7 +1004,8 @@ Redeliste
  Alternativ klicken Sie auf den Tagesordnungspunkt und dann auf 
 \begin_inset Graphics
 	filename clipart/Redeliste-Symbol.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 86bp 0bp
 
 \end_inset
 
@@ -1012,7 +1016,8 @@ Redeliste
 Setzen Sie sich selbst auf die Redeliste, indem sie auf 
 \begin_inset Graphics
 	filename clipart/Redeliste+Mich.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 147bp 0bp
 
 \end_inset
 
@@ -1031,7 +1036,8 @@ reference "subsec:Anlegen-eines-Teilnehmers"
 Projizieren Sie die Redeliste nun durch Klicken auf 
 \begin_inset Graphics
 	filename clipart/Projektorsymbol-Redeliste.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 88bp 0bp
 
 \end_inset
 
@@ -1039,14 +1045,16 @@ Projizieren Sie die Redeliste nun durch Klicken auf
  Starten Sie nun ihre Rede durch Drücken von 
 \begin_inset Graphics
 	filename clipart/Rede-beginnen.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 59bp 0bp
 
 \end_inset
 
  oder 
 \begin_inset Graphics
 	filename clipart/Nächste-Rede-beginnen.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 167bp 0bp
 
 \end_inset
 
@@ -1055,14 +1063,16 @@ Projizieren Sie die Redeliste nun durch Klicken auf
  Um die Rede zu beenden, klicken Sie auf 
 \begin_inset Graphics
 	filename clipart/Rede-beenden.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 67bp 0bp
 
 \end_inset
 
  oder 
 \begin_inset Graphics
 	filename clipart/Aktuelle-Rede-beenden.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 165bp 0bp
 
 \end_inset
 
@@ -1070,14 +1080,27 @@ Projizieren Sie die Redeliste nun durch Klicken auf
 \end_layout
 
 \begin_layout Standard
-Durch Drücken auf 
+Durch 
+\change_deleted -1945514659 1485267370
+Drücken
+\change_inserted -1945514659 1485267373
+Klicken
+\change_unchanged
+ auf 
 \begin_inset Graphics
 	filename clipart/Letzte-Redner.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 5bp 126bp 0bp
 
 \end_inset
 
- können sie sich die letzten Redner als Liste anzeigen lassen.
+ können 
+\change_inserted -1945514659 1485267361
+S
+\change_deleted -1945514659 1485267361
+s
+\change_unchanged
+ie sich die letzten Redner als Liste anzeigen lassen.
  Ein Teil dieser Liste wird auch projiziert, je nach den Einstellungen.
  Für Details dazu siehe 
 \begin_inset CommandInset ref
@@ -1090,22 +1113,90 @@ reference "subsec:Einstellungen-Tagesordnung"
 \end_layout
 
 \begin_layout Standard
-Jede Redeliste ist erst einmal offen.
+Jede Redeliste ist 
+\change_inserted -1945514659 1485267399
+grundsätzlich 
+\change_unchanged
+erst einmal offen.
  Das heißt, dass sich jeder angemeldete Teilnehmer auf die Redeliste setzen
  kann.
- Um die Redeliste zu schließen, damit das nicht mehr möglich ist, klicken
- Sie auf den Knopf 
+ 
+\change_deleted -1945514659 1485267427
+Um
+\change_inserted -1945514659 1485267429
+Wenn Sie
+\change_unchanged
+ die Redeliste 
+\change_deleted -1945514659 1485267431
+zu
+\change_unchanged
+ schließen, 
+\change_deleted -1945514659 1485267434
+damit
+\change_inserted -1945514659 1485267435
+ist dies
+\change_deleted -1945514659 1485267437
+ das
+\change_unchanged
+ nicht mehr möglich
+\change_inserted -1945514659 1485267440
+.
+
+\change_unchanged
+ 
+\change_deleted -1945514659 1485267445
+ist, 
+\change_inserted -1945514659 1485267447
+ K
+\change_deleted -1945514659 1485267447
+k
+\change_unchanged
+licken Sie 
+\change_inserted -1945514659 1485267451
+dazu 
+\change_unchanged
+auf 
+\change_deleted -1945514659 1485267455
+den Knopf
+\change_unchanged
+ 
+\change_inserted -1945514659 1485508745
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+
+\change_inserted -1945514659 1485508774
+TODO: Offen-Button erneuern, ist rechts abgeschnitten.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \begin_inset Graphics
 	filename clipart/Redeliste-schließen.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 70bp 0bp
 
 \end_inset
 
 .
- Der Knopf ändert sich nun zu 
+ Der 
+\change_deleted -1945514659 1485267478
+Knopf
+\change_inserted -1945514659 1485267478
+Button
+\change_unchanged
+ ändert sich nun zu 
 \begin_inset Graphics
 	filename clipart/Redeliste-öffnen.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 109bp 0bp
 
 \end_inset
 
@@ -1134,10 +1225,24 @@ reference "subsec:Rednerliste-verwalten"
 
 \end_inset
 
- erklärt.
+ erklärt
+\change_inserted -1945514659 1485267629
+.
+ Weitere Details zur Tagesordnung finden Sie in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Tagesordnung"
+
+\end_inset
+
+.
+\change_deleted -1945514659 1485267619
+.
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -1945514659 1485267621
 Weitere Details zur Tagesordnung finden Sie in 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1146,6 +1251,8 @@ reference "sec:Tagesordnung"
 \end_inset
 
 .
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -1187,8 +1294,12 @@ reference "sec:Teilnehmer"
 \end_inset
 
  beschrieben, importieren.
- Eingetragenen Personen, die das System verwalten sollen, müssen die entsprechen
-den Berechtigungen zugewiesen werden.
+ Eingetragene
+\change_deleted -1945514659 1485510077
+n
+\change_unchanged
+ Personen, die das System verwalten sollen, müssen die entsprechenden Berechtigu
+ngen zugewiesen werden.
 \end_layout
 
 \begin_layout Standard
@@ -1199,7 +1310,8 @@ Teilnehmende
  und klicken Sie oben rechts auf 
 \begin_inset Graphics
 	filename clipart/Neu-Symbol.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 61bp 0bp
 
 \end_inset
 
@@ -1223,9 +1335,13 @@ Vorstand
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -1945514659 1485510208
 \begin_inset Newpage newpage
 \end_inset
 
+
+\change_unchanged
 
 \end_layout
 
@@ -1235,7 +1351,7 @@ Vorstand
 \begin_inset Graphics
 	filename clipart/Teilnehmer-anlegen.jpg
 	lyxscale 50
-	width 100col%
+	width 80col%
 
 \end_inset
 
@@ -1243,8 +1359,13 @@ Vorstand
 \end_layout
 
 \begin_layout Standard
-Wiederholen Sie diese Schritte und geben Sie folgende weitere Teilnehmer
- und Teilnehmerinnen ein:
+Wiederholen Sie diese Schritte und geben Sie folgende weitere Teilnehme
+\change_inserted -1945514659 1485510234
+nde
+\change_deleted -1945514659 1485510237
+r und Teilnehmerinnen
+\change_unchanged
+ ein:
 \begin_inset Newline newline
 \end_inset
 
@@ -1280,12 +1401,34 @@ Gliederungsebene
 \family sans
 Gruppe
 \family default
- wird festgelegt, welche Berechtigungen der Teilnehmer hat, also ob er z.
+ wird festgelegt, welche Berechtigungen der Teilnehme
+\change_inserted -1945514659 1485510261
+nde haben
+\change_deleted -1945514659 1485510263
+r hat
+\change_unchanged
+, also ob 
+\change_inserted -1945514659 1485510266
+sie
+\change_deleted -1945514659 1485510267
+er
+\change_unchanged
+ z.
 \begin_inset space \thinspace{}
 \end_inset
 
 B.
- wählen und Anträge stellen darf.
+ wählen und Anträge stellen d
+\change_inserted -1945514659 1485510277
+ü
+\change_deleted -1945514659 1485510276
+a
+\change_unchanged
+rf
+\change_inserted -1945514659 1485510279
+en
+\change_unchanged
+.
  Mehr zu Gruppen ist in 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1297,9 +1440,13 @@ reference "subsec:Gruppen"
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -1945514659 1485510476
 \begin_inset Newpage newpage
 \end_inset
 
+
+\change_unchanged
 
 \end_layout
 
@@ -1312,7 +1459,39 @@ Im Menü
 \family sans
 Teilnehmende
 \family default
- ist eine Liste mit allen Teilnehmern zu sehen:
+ ist 
+\change_inserted -1945514659 1485510497
+nun 
+\change_unchanged
+eine Liste mit allen 
+\change_inserted -1945514659 1485510503
+angelegten 
+\change_deleted -1945514659 1485510516
+Teilne
+\change_inserted -1945514659 1485510518
+Personen
+\change_deleted -1945514659 1485510519
+hmern
+\change_unchanged
+ zu sehen:
+\change_inserted -1945514659 1485510571
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+
+\change_inserted -1945514659 1485510581
+Screenshot ist links abgeschnitten!
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -1329,7 +1508,43 @@ Teilnehmende
 \end_layout
 
 \begin_layout Standard
-Klicken Sie zum Bearbeiten beispielsweise beim Teilnehmer „Dr.
+
+\change_deleted -1945514659 1485510658
+Klicken Sie z
+\change_inserted -1945514659 1485510659
+Z
+\change_unchanged
+um Bearbeiten
+\change_inserted -1945514659 1485510739
+ des Namens klicken Sie auf das Kontextmenü
+\change_unchanged
+ 
+\change_inserted -1945514659 1485510788
+
+\family sans
+Bearbeiten.
+
+\family default
+ Weitere 
+\begin_inset Quotes gld
+\end_inset
+
+Schnellbearbeitungsschritte
+\begin_inset Quotes grd
+\end_inset
+
+ können direkt in der Übersichtsliste vorgenommen werden.
+ 
+\change_deleted -1945514659 1485510789
+b
+\change_inserted -1945514659 1485510789
+B
+\change_unchanged
+eispielsweise 
+\change_inserted -1945514659 1485510846
+das Zuweisen/Entfernen von Benutzergruppen 
+\change_deleted -1945514659 1485510830
+beim Teilnehmer „Dr.
 \begin_inset space ~
 \end_inset
 
@@ -1337,24 +1552,59 @@ Max
 \begin_inset space ~
 \end_inset
 
-Mustermann“ hinter den Namen auf 
+Mustermann“ hinter den Namen auf
+\change_unchanged
+ 
 \begin_inset Graphics
 	filename clipart/Gruppen-Icon.jpg
 	scale 70
 
 \end_inset
 
- und weisen ihm zusätzlich die Gruppe 
+
+\change_deleted -1945514659 1485510836
+ 
+\change_inserted -1945514659 1485510997
+ sowie das Eingeben von Gliederungsebene und Kommentar.
+\change_deleted -1945514659 1485510873
+und weisen ihm zusätzlich die Gruppe 
 \family sans
 Mitarbeitende
 \family default
  zu.
-\end_layout
 
-\begin_layout Standard
-In der Teilnehmerliste kann jederzeit eingestellt werden, ob ein Teilnehmer
- anwesend ist.
- Dies ist für Wahlen und die Dokumentation der Veranstaltung wichtig.
+\change_inserted -1945514659 1485510927
+ Darüber hinaus kann
+\change_deleted -1945514659 1485510904
+In der Teilnehmerliste kann
+\change_unchanged
+ 
+\change_deleted -1945514659 1485510932
+jederzeit
+\change_unchanged
+ eingestellt werden, ob ein Teilnehmer anwesend
+\change_inserted -1945514659 1485511016
+ oder abwesend 
+\change_deleted -1945514659 1485511016
+ 
+\change_unchanged
+ist.
+ Dies ist
+\change_inserted -1945514659 1485511044
+ u.a.
+
+\change_unchanged
+ für 
+\change_inserted -1945514659 1485511036
+die Feststellung der Beschlussfähigkeit 
+\change_deleted -1945514659 1485511048
+Wahlen und die Dokumentation der Veranstaltung
+\change_inserted -1945514659 1485511051
+von Bedeutung
+\change_deleted -1945514659 1485511053
+ wichtig
+\change_unchanged
+.
 \end_layout
 
 \begin_layout Subsection
@@ -1362,14 +1612,34 @@ Passwort eines Teilnehmers
 \end_layout
 
 \begin_layout Standard
-Beim Anlegen eines Teilnehmers wird automatisch ein zufälliges Erst-Passwort
- gesetzt, falls man nicht selbst ein Passwort angibt.
- Sie können das Erst-Passwort für jeden Teilnehmer einer PDF-Datei entnehmen.
+Beim Anlegen eines Teilnehmers wird automatisch ein zufälliges 
+\change_deleted -1945514659 1485511136
+E
+\change_inserted -1945514659 1485511158
+initiales
+\change_deleted -1945514659 1485511140
+rst-
+\change_inserted -1945514659 1485511142
+ 
+\change_unchanged
+Passwort gesetzt, falls man nicht selbst ein Passwort angibt.
+ Sie können das 
+\change_inserted -1945514659 1485511182
+initiale 
+\change_deleted -1945514659 1485511183
+Erst-
+\change_unchanged
+Passwort für jeden Teilnehmer 
+\change_inserted -1945514659 1485511194
+aus 
+\change_unchanged
+einer PDF-Datei entnehmen.
  Diese wird erzeugt, wenn Sie in der Teilnehmerliste oben rechts das Symbol
  
 \begin_inset Graphics
 	filename clipart/Exportieren-alle.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 165bp 0bp
 
 \end_inset
 
@@ -1378,13 +1648,48 @@ Beim Anlegen eines Teilnehmers wird automatisch ein zufälliges Erst-Passwort
 Zugangsdatenliste
 \family default
  klicken.
- Dieses PDF ist so ausgelegt, dass man es ausdrucken und so jedem Teilnehmer
- seine Zugangsdaten mitteilen kann.
-\end_layout
+ Dieses PDF ist so ausgelegt, dass man 
+\change_deleted -1945514659 1485511266
+es ausdrucken und so
+\change_unchanged
+ jedem Teilnehmer seine
+\change_inserted -1945514659 1485511282
+ ausgedruckten
+\change_unchanged
+ Zugangsdaten 
+\change_deleted -1945514659 1485511285
+mittei
+\change_inserted -1945514659 1485511339
+beim Empfang auf der Versammlung aushändigen 
+\change_deleted -1945514659 1485511289
+len
+\change_unchanged
+ kann.
 
-\begin_layout Standard
-Bitten Sie jeden, dem Sie sein Erst-Passwort aushändigen, dieses nach dem
- ersten Login zu ändern.
+\change_inserted -1945514659 1485511412
+ 
+\change_unchanged
+Bitten Sie jeden
+\change_inserted -1945514659 1485511385
+ Teilnehmenden
+\change_unchanged
+, 
+\change_deleted -1945514659 1485511389
+dem Sie sein
+\change_inserted -1945514659 1485511389
+das
+\change_unchanged
+ 
+\change_inserted -1945514659 1485511393
+initiale 
+\change_deleted -1945514659 1485511372
+Erst-
+\change_unchanged
+Passwort 
+\change_deleted -1945514659 1485511378
+aushändigen, dieses 
+\change_unchanged
+nach dem ersten Login zu ändern.
 \end_layout
 
 \begin_layout Standard
@@ -1415,6 +1720,14 @@ reference "sec:Teilnehmer"
 \end_inset
 
 .
+\change_inserted -1945514659 1485511504
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Section
@@ -1442,26 +1755,59 @@ Mitteilungen
 Redeliste
 \family default
 .
- Um z.
+\change_inserted -1945514659 1485511563
+
+\end_layout
+
+\begin_layout Standard
+
+\change_deleted -1945514659 1485511562
+ 
+\change_inserted -1945514659 1485512642
+Mitteilungen eignen sich für kurze (organisatorische) Hinweise auf dem Projektor.
+ 
+\change_deleted -1945514659 1485512567
+Um z
+\change_inserted -1945514659 1485512568
+Z
+\change_unchanged
+.
 \begin_inset space \thinspace{}
 \end_inset
 
 B.
- mitzuteilen, wo es das Mittagessen gibt, klicken Sie auf
+
+\change_inserted -1945514659 1485512571
+ um
+\change_unchanged
+ mitzuteilen, wo es das Mittagessen gibt
+\change_inserted -1945514659 1485512582
+.
+ K
+\change_deleted -1945514659 1485512583
+, k
+\change_unchanged
+licken Sie auf
+\change_deleted -1945514659 1485511537
+
 \begin_inset Newline newline
 \end_inset
 
 
+\change_unchanged
+
 \begin_inset Graphics
 	filename clipart/Neue-Mitteilung.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 190bp 0bp
 
 \end_inset
 
  und rechts oben in der Mitteilung auf 
 \begin_inset Graphics
 	filename clipart/Bearbeiten-Symbol.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 32bp 0bp
 
 \end_inset
 
@@ -1478,22 +1824,60 @@ Stock, Aufgang B.
 \begin_inset Quotes grd
 \end_inset
 
- ein und klicken anschließend auf 
+ ein und 
+\change_inserted -1945514659 1485511700
+speichern Sie 
+\change_deleted -1945514659 1485511711
+klicken
+\change_unchanged
+ anschließend 
+\change_deleted -1945514659 1485511714
+auf
+\change_inserted -1945514659 1485511719
+die Mitteilung
+\change_deleted -1945514659 1485511719
+ 
 \begin_inset Graphics
 	filename clipart/Haken-Symbol.jpg
 	scale 70
 
 \end_inset
 
+
+\change_unchanged
 .
- Klicken Sie nun auf 
+ Klicken Sie nun 
+\change_inserted -1945514659 1485511746
+zum Projizieren 
+\change_unchanged
+auf 
 \begin_inset Graphics
 	filename clipart/Projektorsymbol.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 34bp 0bp
 
 \end_inset
 
-, wird die Mitteilung so angezeigt:
+
+\change_deleted -1945514659 1485511749
+,
+\change_inserted -1945514659 1485511749
+.
+
+\change_unchanged
+ 
+\change_deleted -1945514659 1485511752
+wird 
+\change_inserted -1945514659 1485511753
+D
+\change_deleted -1945514659 1485511754
+d
+\change_unchanged
+ie Mitteilung 
+\change_inserted -1945514659 1485511770
+wird auf dem Projektor 
+\change_unchanged
+so angezeigt:
 \end_layout
 
 \begin_layout Standard
@@ -1502,7 +1886,7 @@ Stock, Aufgang B.
 \begin_inset Graphics
 	filename clipart/Mitteilung-Essen.jpg
 	lyxscale 25
-	width 100col%
+	width 80col%
 
 \end_inset
 
@@ -1521,14 +1905,34 @@ min als Countdown laufen zu lassen, klicken Sie auf
 
 \begin_inset Graphics
 	filename clipart/Neuer-Countdown.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 206bp 0bp
 
 \end_inset
 
  und dann auf 
+\change_inserted -1945514659 1485511901
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+
+\change_inserted -1945514659 1485511910
+Button rechts abgeschnitten.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \begin_inset Graphics
 	filename clipart/Bearbeiten-Symbol.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 32bp 0bp
 
 \end_inset
 
@@ -1557,47 +1961,138 @@ Startzeit
 \begin_inset Quotes grd
 \end_inset
 
- ein und klicken anschließend auf das Symbol 
+ ein und 
+\change_inserted -1945514659 1485511934
+speichern
+\change_deleted -1945514659 1485511944
+klicken
+\change_inserted -1945514659 1485511950
+ Sie
+\change_unchanged
+ anschließend 
+\change_inserted -1945514659 1485511960
+den Countdown 
+\change_deleted -1945514659 1485512764
+auf das Symbol 
 \begin_inset Graphics
 	filename clipart/Haken-Symbol.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 39bp 0bp
 
 \end_inset
 
+
+\change_unchanged
 .
  Klicken Sie nun auf 
 \begin_inset Graphics
 	filename clipart/Projektorsymbol.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 34bp 0bp
 
 \end_inset
 
- um den Countdown anzuzeigen.
- Mit dem Klick auf 
+ um den Countdown 
+\change_inserted -1945514659 1485512825
+zu projizieren.
+ 
+\change_deleted -1945514659 1485512820
+anzuzeigen.
+ 
+\change_unchanged
+Mit dem Klick auf 
 \begin_inset Graphics
 	filename clipart/Projektorsymbol-laufend.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 34bp 0bp
 
 \end_inset
 
- der aktuellen Mitteilung wird diese wieder von Projektor entfernt.
- Klicken Sie auf 
+ 
+\change_deleted -1945514659 1485512891
+der aktuellen
+\change_inserted -1945514659 1485512896
+wird die aktuelle
+\change_unchanged
+ Mitteilung 
+\change_deleted -1945514659 1485512900
+wird
+\change_unchanged
+ 
+\change_deleted -1945514659 1485512901
+diese
+\change_unchanged
+ wieder vo
+\change_inserted -1945514659 1485512904
+m
+\change_deleted -1945514659 1485512904
+n
+\change_unchanged
+ Projektor entfernt.
+ 
+\change_deleted -1945514659 1485512913
+Klicken
+\change_inserted -1945514659 1485512914
+Mit
+\change_unchanged
+ 
+\change_deleted -1945514659 1485512916
+Sie auf
+\change_unchanged
+ 
 \begin_inset Graphics
 	filename clipart/Countdown-Start-Symbol.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 37bp 0bp
 
 \end_inset
 
- um den Countdown zu starten.
+ 
+\change_inserted -1945514659 1485512928
+starten Sie 
+\change_deleted -1945514659 1485512929
+um d
+\change_inserted -1945514659 1485512930
+d
+\change_unchanged
+en Countdown
+\change_deleted -1945514659 1485512937
+ zu starten
+\change_unchanged
+.
+
+\change_inserted -1945514659 1485513232
+ Nach dem Ablauf wird die Zeit rot eingefärbt und läuft negativ.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
 \noindent
 \align center
+
+\change_inserted -1945514659 1485513069
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+
+\change_inserted -1945514659 1485513156
+Screenshots sollten einen Rahmen bekommen, sonst ist schwer erkennbar, wo
+ der Screenshot endet - besonders hier, wo es einen weißen Hintergrund gibt....
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \begin_inset Graphics
 	filename clipart/Countdown-Beispiel.jpg
 	lyxscale 25
-	width 100col%
+	width 80col%
 
 \end_inset
 
@@ -1605,6 +2100,8 @@ Startzeit
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -1945514659 1485513288
 Die Zeit des Countdowns wird unter 30
 \begin_inset space \thinspace{}
 \end_inset
@@ -1614,7 +2111,13 @@ s orange eingefärbt.
 \end_layout
 
 \begin_layout Standard
-Besonders sinnvoll sind Countdowns für Reden.
+Besonders sinnvoll sind Countdowns für Rede
+\change_inserted -1945514659 1485513033
+zeitbegrenzungen
+\change_deleted -1945514659 1485513034
+n
+\change_unchanged
+.
  Informationen wie man für jede Rede einen Countdown mitlaufen lassen kann
  und weitere Details zu Mitteilungen finden Sie in 
 \begin_inset CommandInset ref
@@ -1657,7 +2160,8 @@ Anträge
  und klicken auf 
 \begin_inset Graphics
 	filename clipart/Neu-Symbol.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 61bp 0bp
 
 \end_inset
 
@@ -1688,9 +2192,13 @@ Die vielen Aufgaben erfordern eine Erweiterung des Beirats auf sieben Mitglieder
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -1945514659 1485513440
 \begin_inset Newpage newpage
 \end_inset
 
+
+\change_unchanged
 
 \end_layout
 
@@ -1700,7 +2208,7 @@ Die vielen Aufgaben erfordern eine Erweiterung des Beirats auf sieben Mitglieder
 \begin_inset Graphics
 	filename clipart/Antrag-ausfüllen.jpg
 	lyxscale 50
-	width 100col%
+	width 80col%
 
 \end_inset
 
@@ -1741,9 +2249,13 @@ Erstellen Sie auf gleiche Weise eine weiteren Antrag mit dem Titel
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -1945514659 1485513487
 \begin_inset Newpage newpage
 \end_inset
 
+
+\change_unchanged
 
 \end_layout
 
@@ -1778,7 +2290,8 @@ Angenommen die Versammlungsleitung ruft den Antrag zur Satzungsänderung
  Klicken Sie zunächst in der Antragsübersicht auf 
 \begin_inset Graphics
 	filename clipart/Projektorsymbol.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 34bp 0bp
 
 \end_inset
 
@@ -1800,28 +2313,95 @@ Angenommen die Versammlungsleitung ruft den Antrag zur Satzungsänderung
 \end_layout
 
 \begin_layout Standard
-Um zur Antragsverwaltung zu wechseln, klicken Sie jetzt auf den Titel des
- Antrags.
+
+\change_deleted -1945514659 1485513608
+Um zur Antragsverwaltung zu wechseln, k
+\change_inserted -1945514659 1485513618
+Öffnen Sie nun den Antrag durch K
+\change_unchanged
+lick
+\change_deleted -1945514659 1485513621
+en
+\change_unchanged
+ 
+\change_deleted -1945514659 1485513624
+Sie jetzt
+\change_unchanged
+ auf den 
+\change_inserted -1945514659 1485513631
+Antrags
+\change_deleted -1945514659 1485513631
+T
+\change_inserted -1945514659 1485513631
+t
+\change_unchanged
+itel
+\change_deleted -1945514659 1485513637
+ des Antrags
+\change_unchanged
+.
 \end_layout
 
 \begin_layout Standard
-Nach Abschluss der Diskussion ruft der Vorsitzende zur Abstimmung auf.
- Klicken Sie im rechten Kasten auf 
+Nach Abschluss der Diskussion ruft der 
+\change_deleted -1945514659 1485513652
+Vorsitzende
+\change_inserted -1945514659 1485513655
+Versammlungsleiter
+\change_unchanged
+ zur Abstimmung auf.
+ 
+\change_inserted -1945514659 1485513709
+Zur Protokollierung des Abstimmungsergebnisses 
+\change_deleted -1945514659 1485513710
+K
+\change_inserted -1945514659 1485513710
+k
+\change_unchanged
+licken Sie 
+\change_deleted -1945514659 1485513721
+im rechten Kasten 
+\change_unchanged
+auf 
 \begin_inset Graphics
 	filename clipart/Neue-Abstimmung.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 148bp 0bp
 
 \end_inset
 
  und anschließend auf 
 \begin_inset Graphics
 	filename clipart/Bearbeiten-Symbol-klein.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 5bp 22bp 0bp
 
 \end_inset
 
 .
- Tragen Sie das Abstimmungsergebnis wie folgt in das Formular ein:
+ Tragen Sie
+\change_inserted -1945514659 1485513757
+ nun
+\change_unchanged
+ das 
+\change_deleted -1945514659 1485513763
+Abstimmungs
+\change_inserted -1945514659 1485513768
+ausgezählte E
+\change_deleted -1945514659 1485513768
+e
+\change_unchanged
+rgebnis 
+\change_deleted -1945514659 1485513775
+wie folgt
+\change_unchanged
+ in das Formular ein
+\change_inserted -1945514659 1485513799
+ und speichern Sie anschließend.
+\change_deleted -1945514659 1485513799
+:
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -1830,7 +2410,7 @@ Nach Abschluss der Diskussion ruft der Vorsitzende zur Abstimmung auf.
 \begin_inset Graphics
 	filename clipart/Abstimmung-Antrag-Tutorium.jpg
 	lyxscale 66
-	scale 95
+	scale 75
 
 \end_inset
 
@@ -1859,7 +2439,8 @@ Der Vorsitzende stellt fest, dass der Antrag angenommen ist.
  Klicken Sie deshalb auf 
 \begin_inset Graphics
 	filename clipart/Status.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 77bp 0bp
 
 \end_inset
 
@@ -1889,8 +2470,18 @@ OpenSlides
 
  bietet viele weitere Möglichkeiten Anträge zu behandeln, in Ausschüsse
  zu verweisen, Änderungsanträge einzureichen, Antragstexte live zu ändern
- und Vieles mehr.
- Für alle Details dazu siehe 
+ und 
+\change_inserted -1945514659 1485513920
+v
+\change_deleted -1945514659 1485513920
+V
+\change_unchanged
+ieles mehr.
+ 
+\change_deleted -1945514659 1485513930
+Für alle
+\change_unchanged
+ Details dazu siehe 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sec:Anträge"
@@ -1939,7 +2530,8 @@ Wahlen
  Legen Sie nun eine neue Wahl an indem sie oben auf 
 \begin_inset Graphics
 	filename clipart/Neu-Symbol.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 61bp 0bp
 
 \end_inset
 
@@ -1976,7 +2568,7 @@ Stimmen.
 \begin_inset Graphics
 	filename clipart/Wahl-eingeben.jpg
 	lyxscale 50
-	width 100col%
+	width 75col%
 
 \end_inset
 
@@ -2040,7 +2632,8 @@ Durchführung einer Wahl
 Klicken Sie in der Wahlübersicht auf 
 \begin_inset Graphics
 	filename clipart/Projektorsymbol.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 34bp 0bp
 
 \end_inset
 
@@ -2049,7 +2642,17 @@ Klicken Sie in der Wahlübersicht auf
 Vorstand
 \family default
  und die Wahl wird projiziert.
- Nun klicken Sie auf den Namen der Wahl 
+ 
+\change_inserted -1945514659 1485514252
+Öffnen Sie nun die Wahl-Detailseite mit Klick 
+\change_deleted -1945514659 1485514259
+Nun klicken Sie
+\change_unchanged
+ auf den Namen 
+\change_deleted -1945514659 1485514270
+der Wahl 
+\change_unchanged
+
 \family sans
 Vorstand
 \family default
@@ -2057,10 +2660,15 @@ Vorstand
 \end_layout
 
 \begin_layout Standard
-Setzen Sie sich mit 
+Setzen Sie sich 
+\change_inserted -1945514659 1485514286
+selbst 
+\change_unchanged
+mit 
 \begin_inset Graphics
 	filename clipart/Redeliste+Mich.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 147bp 0bp
 
 \end_inset
 
@@ -2076,19 +2684,53 @@ OpenSlides
 \end_inset
 
  angelegten Teilnehmer hinzugefügt werden.
- Wählen Sie nun aus der Liste 4
+ Wählen Sie 
+\change_deleted -1945514659 1485514321
+nun 
+\change_unchanged
+aus der Liste 
+\change_inserted -1945514659 1485514323
+vier
+\change_deleted -1945514659 1485514325
+4
 \begin_inset space ~
 \end_inset
 
+
+\change_inserted -1945514659 1485514325
+ 
+\change_unchanged
 weitere Kandidaten aus.
 \end_layout
 
 \begin_layout Standard
 Wir gehen nun davon aus, dass die Kandidatenliste feststeht.
- Damit sich die Kandidaten vorstellen können, klicken Sie oben auf 
+ 
+\change_inserted -1945514659 1485514901
+Erzeugen Sie einen neuen Wahlgang durch Klick auf 
+\begin_inset Graphics
+	filename clipart/Neuer-Wahlgang.jpg
+	scale 50
+	BoundingBox 0bp 7bp 137bp 0bp
+
+\end_inset
+
+.
+ Dadurch hat sich die Phase der Wahl automatisch auf 
+\family sans
+Im Wahlvorgang
+\family default
+ geändert.
+\end_layout
+
+\begin_layout Standard
+
+\change_deleted -1945514659 1485514912
+Damit sich die Kandidaten vorstellen können, klicken Sie oben auf 
 \begin_inset Graphics
 	filename clipart/Redeliste-Symbol.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 86bp 0bp
 
 \end_inset
 
@@ -2104,7 +2746,7 @@ reference "subsec:Redelisten"
  behandelt wurde.
  Wie Sie sehen, sind bereits alle Kandidaten auf der Redeliste.
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Überprüfen
@@ -2116,6 +2758,8 @@ status open
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -1945514659 1485514404
 Um die Wahl zu beginnen, gehen Sie zurück zur Wahl und klicken unten auf
  
 \begin_inset Graphics
@@ -2130,7 +2774,9 @@ Um die Wahl zu beginnen, gehen Sie zurück zur Wahl und klicken unten auf
 Im Wahlvorgang
 \family default
  geändert.
- Das Projektorbild sieht nun so aus:
+ 
+\change_unchanged
+Das Projektorbild sieht nun so aus:
 \end_layout
 
 \begin_layout Standard
@@ -2147,17 +2793,55 @@ Im Wahlvorgang
 \end_layout
 
 \begin_layout Standard
+
+\change_inserted -1945514659 1485514921
+Damit sich die Kandidaten vorstellen können, klicken Sie oben auf 
+\begin_inset Graphics
+	filename clipart/Redeliste-Symbol.jpg
+	scale 50
+	BoundingBox 0bp 7bp 86bp 0bp
+
+\end_inset
+
+.
+ Die Redeliste ist technisch identisch zu der Redeliste eines Tagesordnungspunkt
+s, die in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Redelisten"
+
+\end_inset
+
+ behandelt wurde.
+ Wie Sie sehen, sind bereits alle Kandidaten auf der Redeliste.
+\end_layout
+
+\begin_layout Standard
 Da die Wahl von Personen eine geheime Wahl ist, müssen Stimmzettel erstellt
  werden.
  Klicken Sie dafür auf 
 \begin_inset Graphics
 	filename clipart/Stimmzettel-drucken.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 151bp 0bp
 
 \end_inset
 
 .
- Der Stimmzettel sieht so aus:
+ Der 
+\change_inserted -1945514659 1485516075
+nachfolgende 
+\change_unchanged
+Stimmzettel 
+\change_deleted -1945514659 1485516077
+sieht
+\change_inserted -1945514659 1485516108
+kann nun ausgedruckt und verteilt werden.
+
+\change_deleted -1945514659 1485516106
+ so aus:
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -2166,7 +2850,7 @@ Da die Wahl von Personen eine geheime Wahl ist, müssen Stimmzettel erstellt
 \begin_inset Graphics
 	filename clipart/Wahlzettel.jpg
 	lyxscale 66
-	scale 95
+	scale 80
 
 \end_inset
 
@@ -2174,6 +2858,8 @@ Da die Wahl von Personen eine geheime Wahl ist, müssen Stimmzettel erstellt
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -1945514659 1485516096
 und kann ausgedruckt und verteilt werden.
 \end_layout
 
@@ -2186,26 +2872,95 @@ Wir nehmen nun an, dass die Wahl ausgezählt wurde und die Ergebnisse vorliegen.
 Wahlgangs ein, indem Sie auf 
 \begin_inset Graphics
 	filename clipart/Stimmen-eingeben.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 141bp 0bp
 
 \end_inset
 
  klicken.
- In die Eingabemaske tragen Sie als Beispiel bei Administrator 23, bei Frau
- Meyer 38, bei Herrn Mustermann 17, bei Herrn Müller 20, bei Frau Schmidt
- 22, bei 
+ 
+\change_deleted -1945514659 1485516155
+In die Eingabemaske tragen Sie al
+\change_inserted -1945514659 1485516158
+Nutzen Sie al
+\change_unchanged
+s Beispiel 
+\change_inserted -1945514659 1485516168
+folgende Stimmverteilung: 
+\change_deleted -1945514659 1485516168
+bei
+\change_unchanged
+ Administrator 23, 
+\change_deleted -1945514659 1485516172
+bei 
+\change_unchanged
+Frau Meyer 38, 
+\change_deleted -1945514659 1485516174
+bei
+\change_unchanged
+ Herr
+\change_deleted -1945514659 1485516183
+n
+\change_unchanged
+ Mustermann 17, 
+\change_deleted -1945514659 1485516186
+bei 
+\change_unchanged
+Herr
+\change_deleted -1945514659 1485516187
+n
+\change_unchanged
+ Müller 20, 
+\change_deleted -1945514659 1485516189
+bei
+\change_unchanged
+ Frau Schmidt 22, 
+\change_deleted -1945514659 1485516196
+bei
+\change_unchanged
+ 
+\change_deleted -1945514659 1485516197
+
 \family sans
-Gültige Stimmen
+G
+\change_inserted -1945514659 1485516197
+g
+\change_unchanged
+ültige Stimmen
 \family default
- 109, bei 
+ 109, 
+\change_deleted -1945514659 1485516201
+bei
+\change_unchanged
+ 
+\change_deleted -1945514659 1485516202
+
 \family sans
-Ungültige Stimmen
+U
+\change_inserted -1945514659 1485516203
+u
+\change_unchanged
+ngültige Stimmen
 \family default
- 1 und bei 
+ 1 und 
+\change_deleted -1945514659 1485516206
+bei
+\change_unchanged
+ 
+\change_deleted -1945514659 1485516207
+
 \family sans
-Abgegebene Stimmen
+A
+\change_inserted -1945514659 1485516207
+a
+\change_unchanged
+bgegebene Stimmen
 \family default
- 110 ein.
+ 110
+\change_deleted -1945514659 1485516211
+ ein
+\change_unchanged
+.
 \end_layout
 
 \begin_layout Standard
@@ -2225,7 +2980,8 @@ Wahlgang nur Frau Meyer gewählt.
  Um die Wahl zu veröffentlichen, klicken Sie auf 
 \begin_inset Graphics
 	filename clipart/Wahl-veröffentlichen.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 123bp 0bp
 
 \end_inset
 
@@ -2235,16 +2991,29 @@ Wahlgang nur Frau Meyer gewählt.
 \end_layout
 
 \begin_layout Standard
-Sie können nun entscheiden, ob auch die Stimmenanzahl veröffentlicht wird.
+Sie können nun entscheiden, ob auch die Stimmenanzahl
+\change_inserted -1945514659 1485516361
+en projiziert werden sollen
+\change_deleted -1945514659 1485516364
+ veröffentlicht wird
+\change_unchanged
+.
  Da das gewünscht ist, klicken Sie auf 
 \begin_inset Graphics
 	filename clipart/Wahl-projizieren.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 97bp 0bp
 
 \end_inset
 
 .
- Es wird nun dies projiziert:
+ 
+\change_inserted -1945514659 1485516379
+Am Projektor erscheint folgendes Bild
+\change_deleted -1945514659 1485516381
+Es wird nun dies projiziert
+\change_unchanged
+:
 \end_layout
 
 \begin_layout Standard
@@ -2261,6 +3030,8 @@ Sie können nun entscheiden, ob auch die Stimmenanzahl veröffentlicht wird.
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -1945514659 1485516416
 Als Erklärung können Sie nun vielleicht eine Mitteilung mit dem Inhalt 
 \begin_inset Quotes gld
 \end_inset
@@ -2277,25 +3048,37 @@ reference "sec:Countdowns-Mitteilungen"
 \end_inset
 
  gelernt haben.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
-Da der Vorstand aus 3
+Da der Vorstand aus 
+\change_inserted -1945514659 1485516425
+drei
+\change_deleted -1945514659 1485516427
+3
 \begin_inset space ~
 \end_inset
 
+
+\change_inserted -1945514659 1485516427
+ 
+\change_unchanged
 Personen bestehen muss, ist ein zweiter Wahlgang notwendig.
  Klicken Sie daher auf 
 \begin_inset Graphics
 	filename clipart/Weiterer-Wahlgang.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 155bp 0bp
 
 \end_inset
 
  und 
 \begin_inset Graphics
 	filename clipart/Stimmzettel-drucken.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 151bp 0bp
 
 \end_inset
 
@@ -2305,14 +3088,16 @@ or als gewählt.
  Zuletzt klicken Sie auf 
 \begin_inset Graphics
 	filename clipart/Wahl-veröffentlichen.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 123bp 0bp
 
 \end_inset
 
  und 
 \begin_inset Graphics
 	filename clipart/Wahl-projizieren.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 97bp 0bp
 
 \end_inset
 
@@ -2324,19 +3109,35 @@ Abgeschlossen
  Wenn Sie in der Wahl oben auf 
 \begin_inset Graphics
 	filename clipart/PDF-Symbol.jpg
-	scale 70
+	scale 50
+	BoundingBox 0bp 7bp 61bp 0bp
 
 \end_inset
 
- klicken, erhalten Sie ein PDF mit dem Wahlergebnis, das Sie für die Nachbereitu
-ng der Veranstaltung verwenden können.
+ klicken, erhalten Sie ein PDF mit dem 
+\change_inserted -1945514659 1485516514
+vollständigen 
+\change_unchanged
+Wahlergebnis
+\change_inserted -1945514659 1485516519
+ beider Wahlgänge
+\change_unchanged
+, das Sie für die Nachbereitung der Veranstaltung verwenden können.
 \end_layout
 
 \begin_layout Standard
 Auf die gleiche Weise können Sie nun auch die die Wahl des Beirats durchführen.
  Sie werden feststellen, dass als Wahlmethode automatisch eine Ja-Nein-Enthaltun
-gs-Wahl bezüglich eines jeden Kandidaten ausgewählt wird, wenn es weniger
- oder gleich viele Kandidaten wie Plätze gibt:
+gs-Wahl 
+\change_inserted -1945514659 1485516545
+(
+\change_unchanged
+bezüglich eines jeden Kandidaten
+\change_inserted -1945514659 1485516547
+)
+\change_unchanged
+ ausgewählt wird, wenn es weniger oder gleich viele Kandidaten wie Plätze
+ gibt:
 \end_layout
 
 \begin_layout Standard
@@ -2345,7 +3146,7 @@ gs-Wahl bezüglich eines jeden Kandidaten ausgewählt wird, wenn es weniger
 \begin_inset Graphics
 	filename clipart/Wahlzettel-Enthaltung.jpg
 	lyxscale 50
-	scale 95
+	scale 80
 
 \end_inset
 
@@ -2400,8 +3201,15 @@ Nach einer Veranstaltung
 \end_layout
 
 \begin_layout Standard
-Am Ende der Versammlung können Sie sich für das Protokoll einige Dokumente
- direkt aus 
+Am Ende der Versammlung können Sie sich für das 
+\change_inserted -1945514659 1485516673
+Beschluss
+\change_deleted -1945514659 1485516673
+P
+\change_inserted -1945514659 1485516674
+p
+\change_unchanged
+rotokoll einige Dokumente direkt aus 
 \begin_inset Flex Noun
 status collapsed
 
@@ -2411,7 +3219,13 @@ OpenSlides
 
 \end_inset
 
- holen.
+ 
+\change_deleted -1945514659 1485516662
+holen
+\change_inserted -1945514659 1485516664
+exportieren
+\change_unchanged
+.
  Mehr dazu ist in 
 \begin_inset CommandInset ref
 LatexCommand ref

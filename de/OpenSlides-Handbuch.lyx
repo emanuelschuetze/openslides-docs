@@ -63,8 +63,8 @@ logicalmkup
 \bibtex_command bibtex
 \index_command default
 \float_placement h
-\paperfontsize 12
-\spacing single
+\paperfontsize 11
+\spacing onehalf
 \use_hyperref true
 \pdf_title "OpenSlides Handbuch"
 \pdf_author "OpenSlides Team"
